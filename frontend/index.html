@@ -6,6 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <header>
+       <h1 class="header-title">Photo App</h1>
+   </header>
+   
+   <div class="add-location">
+       <h1 class="add-location-title">Create a new location</h1>
+       <div id="new-location-contenair">
+       <form id="new-location-contenair">
+           <input type="text" name="location-name" id="new-location-name" placeholder="Location Name"/>
+           <input type="text" name="location-lat" id="new-location-lat"placeholder="Latitude="/>
+           <input type="text" name="location-long" id="new-location-long"placeholder="Longitude"/>
+           <input type="text" name="location-photo" id="new-location-photo"placeholder="Photo URL"/>
+           <input type="submit" value="save location"/>
+       </form>
+       </div>
+   </div>
+   <main>
+       <h1 class="location-header">Existing Locations</h1>
+       <div id="location-contenair"></div>
+   </main>
+   <footer>
+       <h1 class="footer-title">Photo Location</h1>
+   </footer>
+   <script src="src/components/app.js"></script>
+   <script src="src/components/location.js"></script>
+   <script src="src/components/locations.js"></script>
+   <script src="src/index.js"></script>
+   <script src="https://kit.fontawesome.com/b7420a02fd.js" crossorigin="anonymous"></script>
 </body>
 </html>
